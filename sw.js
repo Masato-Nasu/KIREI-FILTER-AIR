@@ -1,4 +1,4 @@
-const CACHE_NAME = 'kirei-filter-air-v20';
+const CACHE_NAME = 'kirei-filter-air-v22-restored';
 const ASSETS = [
   './',
   './index.html',

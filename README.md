@@ -16,7 +16,7 @@ https://ai-kirei-filter-air.pages.dev/
 ## Features
 
 - 写真選択 / カメラ撮影
-- Natural / Soft Light / Clear の3モード
+- Natural / Soft Light / Clear
 - Before / After 比較
 - 目元の自然な微調整
 - JPEG保存
@@ -32,17 +32,9 @@ KIREI FILTER AIR は、顔を大きく変えるためのアプリではありま
 
 ## Modes
 
-### Natural
-
-元写真に近いまま、光・色・質感を軽く整えます。
-
-### Soft Light
-
-やわらかい光を足し、少し暖かく見せます。
-
-### Clear
-
-黒を締め、輪郭を少しシャープに見せます。
+- **Natural**：元写真に近い自然補正
+- **Soft Light**：やわらかい光を足し、少し暖かく見せる
+- **Clear**：黒を締め、輪郭を少しシャープに見せる
 
 ## Usage
 
@@ -54,7 +46,7 @@ KIREI FILTER AIR は、顔を大きく変えるためのアプリではありま
 ## Deploy
 
 ```powershell
-cd "$env:USERPROFILE\Desktop\kirei-filter-air-v21"
+cd "$env:USERPROFILE\Desktop\kirei-filter-air-v22-restored"
 npx wrangler pages deploy . --project-name ai-kirei-filter-air
 ```
 
