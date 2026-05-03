@@ -1,0 +1,14 @@
+{
+  "name": "KIREI FILTER AIR",
+  "short_name": "KIREI AIR",
+  "description": "キレイに魅せるKIREI FILTER AIR。",
+  "start_url": "./",
+  "display": "standalone",
+  "background_color": "#f4eee6",
+  "theme_color": "#f4eee6",
+  "orientation": "portrait-primary",
+  "icons": [
+    { "src": "./assets/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any maskable" },
+    { "src": "./assets/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any maskable" }
+  ]
+}
