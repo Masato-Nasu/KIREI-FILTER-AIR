@@ -42,15 +42,3 @@ KIREI FILTER AIR は、顔を大きく変えるためのアプリではありま
 2. Natural / Soft Light / Clear からモードを選びます。
 3. Before / After で仕上がりを確認します。
 4. 「保存」でJPEGを書き出します。
-
-## Deploy
-
-```powershell
-cd "$env:USERPROFILE\Desktop\kirei-filter-air-v22-restored"
-npx wrangler pages deploy . --project-name ai-kirei-filter-air
-```
-
-## Notes
-
-このアプリは、写真の印象を自然に整えることを目的としています。  
-人物そのものを評価したり、美醜を判定したりするものではありません。
